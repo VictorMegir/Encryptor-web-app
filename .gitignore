@@ -1,0 +1,7 @@
+/encryptor/node_modules
+/encryptor/build
+/encryptor/coverage
+/encryptor/.pnp
+
+
+/encryptor server/node_modules
