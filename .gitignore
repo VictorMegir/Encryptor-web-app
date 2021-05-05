@@ -3,5 +3,6 @@
 /encryptor/coverage
 /encryptor/.pnp
 
-
 /encryptor server/node_modules
+
+/node_modules
