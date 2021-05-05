@@ -8,10 +8,11 @@ function OriginalText()
 
     return (
         <textarea 
-            rows='25' cols='150' 
+            rows='15' cols='150' 
             placeholder='Write Something' 
             value={originalText} 
-            onChange={textChangeHandler}>    
+            onChange={textChangeHandler}
+            className="text-xl">
         </textarea>
     )
 }
