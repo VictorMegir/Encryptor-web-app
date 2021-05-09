@@ -31,14 +31,36 @@ function Cipher(props)
     };
 
     return (
-    <>
-        <CipherList setCipher={setCipher} />
-        <ul>
-            <li><div onClick={toggleEncrypt}>Encrypt</div></li>
-            <li><div onClick={toggleDecrypt}>Decrypt</div></li>
+    <div className="pb-4">
+        <ul className="flex justify-center text-xl font-medium">
+            <li className="px-4 mx-4">
+                <div 
+                    onClick={toggleEncrypt}
+                    className={mode === 'encrypt'? "text-green-600" : "text-green-400"}
+                >
+                    Encrypt
+                </div>
+            </li>
+            <li className="px-4 mx-4">
+                <div
+                    onClick={toggleDecrypt}
+                    className={mode === 'decrypt'? "text-green-600" : "text-green-400"}
+                >
+                    Decrypt
+                </div>
+            </li>
         </ul>
-        <button onClick={removeCipher} disabled={props.IDProp.IDs.length === 1}>Remove</button>
-    </>
+        <div className="flex justify-center text-xl font-xl my-2">
+            <CipherList setCipher={setCipher} />
+            <button 
+                className="ml-6 px-4 border-2 rounded-xl border-pink-500 bg-pink-200" 
+                onClick={removeCipher} 
+                disabled={props.IDProp.IDs.length === 1}
+            >
+                Remove
+            </button>
+        </div>
+    </div>
     );
 }
 

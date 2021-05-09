@@ -7,13 +7,14 @@ function OriginalText()
     const textChangeHandler = (event) => { setOriginalText(event.target.value) };
 
     return (
-        <textarea 
-            rows='15' cols='150' 
-            placeholder='Write Something' 
-            value={originalText} 
-            onChange={textChangeHandler}
-            className="text-xl">
-        </textarea>
+        <div className="py-6">
+            <textarea 
+                placeholder='Write Something' 
+                value={originalText} 
+                onChange={textChangeHandler}
+                className="text-2xl border-2 rounded-xl border-blue-400 rounded">
+            </textarea>
+        </div>
     )
 }
 

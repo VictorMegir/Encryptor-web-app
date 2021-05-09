@@ -32,7 +32,7 @@ function CipherBox()
     };
 
     return (
-        <>
+        <div>
             <div>
                 {IDs.map(id => {
                     return (
@@ -42,9 +42,21 @@ function CipherBox()
                     )
                 })}
             </div>
-            <button onClick={sendText}>Convert</button>
-            <button onClick={addCipher}>Add Cipher</button>
-        </>
+            <div className="flex justify-center text-xl py-4">
+                <button 
+                    className="mx-4 px-2 border-2 rounded-xl border-blue-500 bg-blue-200" 
+                    onClick={addCipher}
+                >
+                    Add Cipher
+                </button>
+                <button 
+                    className="mx-4 px-2 border-2 rounded-xl border-blue-500 bg-blue-200" 
+                    onClick={sendText}
+                >
+                    Convert
+                </button>
+            </div>
+        </div>
     );
 }
 
