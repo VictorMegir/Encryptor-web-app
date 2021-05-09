@@ -14,7 +14,7 @@ function App()
   const [URLObject, setURLObject] = useState({});
 
   return (
-    <div className="App h-screen w-full bg-blue-50 text-center">
+    <div className="App h-screen w-full overflow-scroll bg-blue-50 text-center">
       <OriginalTextContext.Provider value={{originalText, setOriginalText}}>
       <AlteredTextContext.Provider value={{alteredText, setAlteredText}}>
       <URLObjectContext.Provider value={{URLObject, setURLObject}}>

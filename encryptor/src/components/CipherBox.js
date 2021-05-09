@@ -44,13 +44,13 @@ function CipherBox()
             </div>
             <div className="flex justify-center text-xl py-4">
                 <button 
-                    className="mx-4 px-2 border-2 rounded-xl border-blue-500 bg-blue-200" 
+                    className="mx-4 px-2 border-2 rounded-xl border-blue-500 bg-blue-200 outline-none" 
                     onClick={addCipher}
                 >
                     Add Cipher
                 </button>
                 <button 
-                    className="mx-4 px-2 border-2 rounded-xl border-blue-500 bg-blue-200" 
+                    className="mx-4 px-2 border-2 rounded-xl border-blue-500 bg-blue-200 outline-none" 
                     onClick={sendText}
                 >
                     Convert

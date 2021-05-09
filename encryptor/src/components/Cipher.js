@@ -53,7 +53,7 @@ function Cipher(props)
         <div className="flex justify-center text-xl font-xl my-2">
             <CipherList setCipher={setCipher} />
             <button 
-                className="ml-6 px-4 border-2 rounded-xl border-pink-500 bg-pink-200" 
+                className="ml-6 px-4 border-2 rounded-xl border-pink-500 bg-pink-200 outline-none" 
                 onClick={removeCipher} 
                 disabled={props.IDProp.IDs.length === 1}
             >
