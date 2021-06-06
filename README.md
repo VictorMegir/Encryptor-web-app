@@ -17,7 +17,7 @@ The backend of this application provides an endpoint for getting all the availab
 In order for the application to perform multiple cipher operations it creates a string sequence that will signify to the backend the which operations need to be performed.<br> 
 This sequence is used as a parameter in a POST request. The user's input text is put into the body of that request.<br>
 The backend provides an endpoint which receives the text from the POST request and resolves the string sequence. Then the backend performs the appropriate operations and returns the result as JSON.<br>
-These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
+The backend was written using <a href='https://nodejs.org/en/'>Node.js</a>. These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
 
 ### Frontend
 The frontend of the application consists of three main components. 
@@ -43,4 +43,4 @@ To use the application  one needs to follow a few steps.<br>
 #### Step 1: Clone the repository
 Open up a Git terminal and type `git clone https://github.com/VictorMegir/Encryptor-web-app.git`
 
-#### Step 2: 
+#### Step 2: Install Dependencies using `npm`
