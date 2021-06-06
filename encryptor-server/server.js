@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const favicon = require("serve-favicon");
 
 // Create Server
 const server = express();
@@ -8,9 +9,11 @@ const server = express();
 server.use(express.json());
 
 // Serve static assets if in production
-if(process.env.NODE_ENV == 'production') {
-    // Set static folder
+if(process.env.NODE_ENV == 'production') 
+{
     server.use(express.static('encryptor/build'));
+    server.use(favicon(path.join(__dirname, 'encryptor', 'build', 'favicon.ico')));
+
     server.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'encryptor', 'build', 'index.html'))
     })
