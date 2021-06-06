@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm start --prefix encryptor-server",
-    "client": "npm start --prefix encryptor"
+    "client": "npm start --prefix encryptor",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix encrypotor && npm run build --prefix encryptor"
   },
   "repository": {
     "type": "git",
