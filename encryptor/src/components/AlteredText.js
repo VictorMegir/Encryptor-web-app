@@ -9,7 +9,7 @@ function AlteredText()
             <textarea readOnly
                 placeholder='Result text' 
                 value={alteredText} 
-                className="text-2xl border-2 rounded-xl border-blue-400 outline-none w-2/3 min-h-full">
+                className="text-2xl border-2 rounded-xl border-blue-400 outline-none w-2/3 min-h-full resize-none">
             </textarea>
         </div>
     )

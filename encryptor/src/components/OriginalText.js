@@ -12,7 +12,7 @@ function OriginalText()
                 placeholder='Write Something' 
                 value={originalText} 
                 onChange={textChangeHandler}
-                className="text-2xl border-2 rounded-xl border-blue-400 rounded outline-none w-2/3 min-h-full">
+                className="text-2xl border-2 rounded-xl border-blue-400 rounded outline-none w-2/3 min-h-full resize-none">
             </textarea>
         </div>
     )
