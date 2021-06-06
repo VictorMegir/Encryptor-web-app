@@ -1,6 +1,6 @@
 # Encryptor web app
 
-## A web app that allows you to encrypt and decrypt messages
+## A web app that allows you to encrypt and decrypt messages.
 
 This website allows the user to use some very basic classical ciphers to encrypt and decrypt text.<br>
 The user can type their text on a text area and then select a cipher to use.<br> 
@@ -13,12 +13,9 @@ The user may *stack* different operations of encrypting and decrypting with diff
  The web app can be found <a href='https://whispering-castle-52666.herokuapp.com/'>here</a>. Check it out!
 
 ### Backend
-The backend of this application provides an endpoint for getting the item information from the database for all the items displayed on the menu.
+The backend of this application provides an endpoint for getting all the available ciphers that can be used. This is used on the list of ciphers that the user can select from.<br>
 The backend also provides an endpoint that creates an order object with the user's information and stores it in the database.
 These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
-
-### Database
-For the database, I used a free cluster of <a href='https://www.mongodb.com/2'>MongoDB</a>. For accessing and working with the database I used the Node.js library <a href='https://mongoosejs.com/'>mongoose</a>.
 
 ### Frontend
 The frontend of this application consists of four main components. The landing page, the menu (one for coffee and one for cookies), the form that the user fills out to make an order and a pop-up window that shows an image and the description of any item.
