@@ -40,7 +40,7 @@ This website was inspired by <a href='https://cryptii.com/pipes/rot13-decoder/'>
 ## Using the application
 To use the application  one needs to follow a few steps.<br>
 
-#### Step 1: Clone the repository
+#### Step 1: Clone the repository using `Git`
 Open up a Git terminal and type `git clone https://github.com/VictorMegir/Encryptor-web-app.git`.
 
 #### Step 2: Install Dependencies using `npm`
