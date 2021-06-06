@@ -2,5 +2,6 @@
 /encryptor/build
 /encryptor/coverage
 /encryptor/.pnp
+/encryptor/src/index.css
 
 /node_modules
