@@ -8,6 +8,10 @@ const server = express();
 // Using JSON middleware for body parsing
 server.use(express.json());
 
+// Using Router middleware
+const router = require('./encryptor-server/middleware/router');
+server.use('/', router);
+
 // Serve static assets if in production
 if(process.env.NODE_ENV == 'production') 
 {
@@ -20,7 +24,3 @@ if(process.env.NODE_ENV == 'production')
 }
 const port = process.env.PORT || 5000;
 server.listen(port, () => console.log(`Server listening on port ${port}`));
-
-// Using Router middleware
-const router = require('./encryptor-server/middleware/router');
-server.use('/', router);

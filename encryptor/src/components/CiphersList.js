@@ -6,10 +6,7 @@ function CipherList(props)
     const selectCipher = (event) => { props.setCipher(event.target.value) };
 
     useEffect(() => {
-        fetch('/ciphers', {
-            method: 'GET',
-            headers: { 'Content-Type': 'application/json' }
-        })
+        fetch('/ciphers')
         .then(response => response.json())
         .then(list => setAllCiphers(list));
     },[]);
