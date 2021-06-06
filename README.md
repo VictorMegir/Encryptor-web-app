@@ -2,7 +2,7 @@
 
 ## A web app that allows you to encrypt and decrypt messages
 
-This website allows the user to use some very basic classical ciphers to encrypt and decrypt text. The web app can be found <a href='https://whispering-castle-52666.herokuapp.com/'>here</a>. Check it out!<br><br>
+This website allows the user to use some very basic classical ciphers to encrypt and decrypt text.<br>
 The user can type their text on a text area and then select a cipher to use.<br> 
 By default the starting cipher is the Rot13 cipher and it is set for encrypting the input text.<br>
 The user may select a different cipher and set the mode to decrypt. The available ciphers are the following: 
@@ -10,11 +10,7 @@ The user may select a different cipher and set the mode to decrypt. The availabl
 The user can click on the "Convert" button to perform the operation. The result will be displayed on the bottom textarea.<br>
 The user may *stack* different operations of encrypting and decrypting with different ciphers by clicking on the "Add Cipher" button.<br> 
 
-This websites allows the user to browse over a selection of coffees and cookies.
-The user can click on the name of any item on the menu to see an image of the item, as well as a short description.
-Finally the user can make an order for any number of items by inputing their name and address.
-
-Check out the website <a href='https://infinite-springs-77128.herokuapp.com/'>here</a>.
+ The web app can be found <a href='https://whispering-castle-52666.herokuapp.com/'>here</a>. Check it out!
 
 ### Backend
 The backend of this application provides an endpoint for getting the item information from the database for all the items displayed on the menu.
