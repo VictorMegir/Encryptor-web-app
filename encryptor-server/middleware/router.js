@@ -6,7 +6,7 @@ const ciphers = require('../encryptions/ciphers');
 // @access Public
 
 router.get('/ciphers', (req, res) => {
-    res.send(Object.keys(ciphers));
+    res.json(Object.keys(ciphers));
 });
 
 // @route /encrypt/:cipher POST
