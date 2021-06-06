@@ -9,6 +9,7 @@ The user may select a different cipher and set the mode to decrypt. The availabl
 <a href='https://en.wikipedia.org/wiki/ROT13'>Rot13</a>, <a href='https://en.wikipedia.org/wiki/Atbash'>Atbash</a>, <a href='https://en.wikipedia.org/wiki/Caesar_cipher'>Caesar</a>, <a href='https://en.wikipedia.org/wiki/Affine_cipher'>Affine</a> and <a href='https://en.wikipedia.org/wiki/Bacon%27s_cipher'>Baconian</a>.<br>
 The user can click on the "Convert" button to perform the operation. The result will be displayed on the bottom textarea.<br>
 The user may *stack* different operations of encrypting and decrypting with different ciphers by clicking on the "Add Cipher" button.<br> 
+The user may remove ciphers from the *stack* of operations by clicking the "Remove" button. Each cipher has its own "Remove" button but the last cipher cannot be removed.
 
  The web app can be found <a href='https://whispering-castle-52666.herokuapp.com/'>here</a>. Check it out!
 
@@ -20,15 +21,17 @@ The backend provides an endpoint which receives the text from the POST request a
 These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
 
 ### Frontend
-The frontend of this application consists of four main components. The landing page, the menu (one for coffee and one for cookies), the form that the user fills out to make an order and a pop-up window that shows an image and the description of any item.
+The frontend of the application consists of three main components. First, a component where the user types the original text.<br>
+Second, a component called Cipher Box which is responsible for the interactions of selecting a cipher, changing the operation type (encrypt and decrypt) and removing a cipher. It is also responible for adding more ciphers and finally making the POST request to the backend.<br>
+Finally there is a component which displays the result that the backend has sent to the appliction.
 The forntend was made with <a href='https://reactjs.org/'>React</a>, using the hooks interface.
-Styling was  done using <a href='https://sass-lang.com/'>Sass</a>.
+Styling was  done using <a href='https://tailwindcss.com/'>Tailwind CSS</a>.
 
 ### Deployment
 This application was deployed using <a href='https://www.heroku.com/'>Heroku</a> and <a href='https://git-scm.com/'>Git</a>.
 
-### Images
-The images for this application were found on the internet and I do not own any of them. They are stored in a personal photo album on <a href='https://imgur.com/'>Imgur</a>.
+### Icons
+The icons where generated using <a href='https://www.favicon-generator.org/'>Favicon Generator</a>.
 
 ### Credits
-This website was inspired by <a href='https://www.salushiexpress.co.za/'>Salushi Express</a>.
+This website was inspired by <a href='https://cryptii.com/pipes/rot13-decoder/'>Cryptii.com</a>.
