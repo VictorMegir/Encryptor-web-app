@@ -8,7 +8,7 @@ function CipherList(props)
     useEffect(() => {
         fetch('/ciphers')
         .then(response => response.json())
-        .then(text => {setAllCiphers(text); console.log(text)});
+        .then(list => setAllCiphers(list));
     },[]);
 
     return (
