@@ -52,5 +52,5 @@ Open up a Git terminal and type `git clone https://github.com/VictorMegir/Encryp
 #### Step 3: Run the development server.
 * Start the server of the application by typing `npm start` on the repository's directory.<br>
 * Start the client of the application by typing `npm start` on the `encryptor` directory from a *different* terminal.<br>
-The development server can be found on your browser on localhost:3000
+The development server can be found on your browser on <a href='http://localhost:3000/'>localhost:3000</a>.
 
