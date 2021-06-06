@@ -36,3 +36,11 @@ The icons where generated using <a href='https://www.favicon-generator.org/'>Fav
 
 ### Credits
 This website was inspired by <a href='https://cryptii.com/pipes/rot13-decoder/'>Cryptii.com</a>.
+
+## Using the application
+To use the application  one needs to follow a few steps.<br>
+
+#### Step 1: Clone the repository
+Open up a Git terminal and type `git clone https://github.com/VictorMegir/Encryptor-web-app.git`
+
+#### Step 2: 
