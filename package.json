@@ -2,7 +2,7 @@
   "name": "encryptor-web-app",
   "version": "1.0.0",
   "description": "The web app's main directory, used for installing and running",
-  "main": "index.js",
+  "main": "encryptor-server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm start --prefix encryptor-server",

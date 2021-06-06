@@ -12,10 +12,10 @@ server.use(express.json());
 if(process.env.NODE_ENV == 'production') 
 {
     server.use(express.static('encryptor/build'));
-    server.use(favicon(path.join(__dirname, 'encryptor', 'build', 'icons', 'favicon.ico')));
+    server.use(favicon(path.join('encryptor', 'build', 'icons', 'favicon.ico')));
 
     server.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'encryptor', 'build', 'index.html'))
+        res.sendFile(path.resolve('encryptor', 'build', 'index.html'))
     })
 }
 const port = process.env.PORT || 5000;
