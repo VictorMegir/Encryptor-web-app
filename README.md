@@ -13,8 +13,10 @@ The user may *stack* different operations of encrypting and decrypting with diff
  The web app can be found <a href='https://whispering-castle-52666.herokuapp.com/'>here</a>. Check it out!
 
 ### Backend
-The backend of this application provides an endpoint for getting all the available ciphers that can be used. This is used on the list of ciphers that the user can select from.<br>
-The backend also provides an endpoint that creates an order object with the user's information and stores it in the database.
+The backend of this application provides an endpoint for getting all the available ciphers that can be used. This is used on the list of ciphers that the user can select from.
+in order for the application to perform multiple cipher operations it creates a string sequence that will signify to the backend the which operations need to be performed.<br> 
+This sequence is used as a parameter in a POST request. The user's input text is put into the body of that request.<br>
+The backend provides an endpoint which receives the text from the POST request and resolves the string sequence. Then the backend performs the appropriate operations and returns the result as JSON.<br>
 These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
 
 ### Frontend
