@@ -24,6 +24,7 @@ The frontend of the application consists of three main components.
 * First, a component where the user types the original text.<br>
 * Second, a component called Cipher Box which is responsible for the interactions of selecting a cipher, changing the operation type (encrypt and decrypt) and removing a cipher. It is also responible for adding more ciphers and finally making the POST request to the backend.<br>
 * Finally there is a component which displays the result that the backend has sent to the appliction.<br>
+
 The forntend was made with <a href='https://reactjs.org/'>React</a>, using the hooks interface.
 Styling was  done using <a href='https://tailwindcss.com/'>Tailwind CSS</a>.
 
