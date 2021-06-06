@@ -4,7 +4,7 @@ class Caesar extends Substitution
 {
     constructor() 
     {
-        super(valueString = 'XYZABCDEFGHIJKLMNOPQRSTUVWxyzabcdefghijklmnopqrstuvw');
+        super('XYZABCDEFGHIJKLMNOPQRSTUVWxyzabcdefghijklmnopqrstuvw');
         this.reverseSubstitution = this.reverse();
     };
 

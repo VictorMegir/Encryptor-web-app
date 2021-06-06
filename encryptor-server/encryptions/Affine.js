@@ -4,7 +4,7 @@ class Affine extends Substitution
 {
     constructor() 
     {
-        super(valueString = 'INSXCHMRWBGLQVAFKPUZEJOTYDinsxchmrwbglqvafkpuzejotyd');
+        super('INSXCHMRWBGLQVAFKPUZEJOTYDinsxchmrwbglqvafkpuzejotyd');
         this.reverseSubstitution = this.reverse();
     };
 

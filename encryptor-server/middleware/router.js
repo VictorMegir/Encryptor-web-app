@@ -50,7 +50,7 @@ router.post('/stack/:sequence', (req, res) => {
             const cipher = new ciphers[cipherName]();
 
             if (operation[0] === 'e') intermediateText = cipher.encrypt(intermediateText);
-            else if (operation[0] === 'd') intermediateText = cipher.encrypt(intermediateText);
+            else if (operation[0] === 'd') intermediateText = cipher.decrypt(intermediateText);
             else res.status(404);
         } catch(error) {
             res.status(404);
