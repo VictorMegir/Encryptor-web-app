@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm start --prefix encryptor-server",
-    "client": "npm start --prefix encryptor",
-    "dev": "concurrently \"npm run client \" \"npm run server\""
+    "client": "npm start --prefix encryptor"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,5 @@
     "url": "https://github.com/VictorMegir/Encryptor-web-app/issues"
   },
   "homepage": "https://github.com/VictorMegir/Encryptor-web-app#readme",
-  "dependencies": {
-    "concurrently": "^6.0.2"
-  }
+  "dependencies": {}
 }
