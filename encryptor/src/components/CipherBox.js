@@ -16,7 +16,6 @@ function CipherBox()
 
     const sendText = () => {
         const URL = resolveURL();
-        console.log(URL)
         fetch(URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

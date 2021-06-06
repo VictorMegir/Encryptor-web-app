@@ -9,7 +9,6 @@ router.get('/ciphers', (req, res) => {
     res.send(Object.keys(ciphers));
 });
 
-
 // @route /encrypt/:cipher POST
 // @desc Receives the cipher as parameter and the text as body. 
 //  Encrypts the text using the cipher and returns the encrypted text.
