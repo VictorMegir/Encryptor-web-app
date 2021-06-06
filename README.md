@@ -2,9 +2,9 @@
 
 ## A web app that allows you to encrypt and decrypt messages
 
-This website allows the use to use some very basic classical ciphers to encrypt and decrypt text.
-The user can type their text on a text area and then select a cipher to use. By default the starting cipher is the Rot13 cipher and it is set for encrypting the input text.
-The user may select a different cipher and set the mode to decrypt. The available ciphers are the following: <a href='https://en.wikipedia.org/wiki/ROT13'>Rot13</a>, <a href='https://en.wikipedia.org/wiki/Atbash'>Atbash</a>, <a href='https://en.wikipedia.org/wiki/Caesar_cipher'>Caesar</a>, <a href='https://en.wikipedia.org/wiki/Affine_cipher'>Affine</a> and <a href='https://en.wikipedia.org/wiki/Bacon%27s_cipher'>Baconian</a>.
+This website allows the use to use some very basic classical ciphers to encrypt and decrypt text.<br>
+The user can type their text on a text area and then select a cipher to use. By default the starting cipher is the Rot13 cipher and it is set for encrypting the input text.<br>
+The user may select a different cipher and set the mode to decrypt. The available ciphers are the following: <a href='https://en.wikipedia.org/wiki/ROT13'>Rot13</a>, <a href='https://en.wikipedia.org/wiki/Atbash'>Atbash</a>, <a href='https://en.wikipedia.org/wiki/Caesar_cipher'>Caesar</a>, <a href='https://en.wikipedia.org/wiki/Affine_cipher'>Affine</a> and <a href='https://en.wikipedia.org/wiki/Bacon%27s_cipher'>Baconian</a>.<br>
 
 This websites allows the user to browse over a selection of coffees and cookies.
 The user can click on the name of any item on the menu to see an image of the item, as well as a short description.
