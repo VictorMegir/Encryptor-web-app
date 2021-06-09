@@ -17,7 +17,7 @@ The backend of this application provides an endpoint for getting all the availab
 In order for the application to perform multiple cipher operations it creates a string sequence that will signify to the backend the which operations need to be performed.<br> 
 This sequence is used as a parameter in a POST request. The user's input text is put into the body of that request.<br>
 The backend provides an endpoint which receives the text from the POST request and resolves the string sequence. Then the backend performs the appropriate operations and returns the result as JSON.<br>
-The backend was written using <a href='https://nodejs.org/en/'>Node.js</a>. These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
+The backend was created using <a href='https://nodejs.org/en/'>Node.js</a>. These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
 
 ### Frontend
 The frontend of the application consists of three main components. 
@@ -25,7 +25,7 @@ The frontend of the application consists of three main components.
 * Second, a component called Cipher Box which is responsible for the interactions of selecting a cipher, changing the operation type (encrypt and decrypt) and removing a cipher. It is also responible for adding more ciphers and finally making the POST request to the backend.<br>
 * Finally there is a component which displays the result that the backend has sent to the appliction.<br>
 
-The forntend was made with <a href='https://reactjs.org/'>React</a>, using the hooks interface.
+The forntend was created with <a href='https://reactjs.org/'>React</a>, using the hooks interface.
 Styling was  done using <a href='https://tailwindcss.com/'>Tailwind CSS</a>.
 
 ### Deployment
